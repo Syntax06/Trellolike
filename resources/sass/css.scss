@@ -1,0 +1,46 @@
+
+    .clignote{
+        color:red;
+        animation: clignote 2s linear infinite;
+
+    }
+    @keyframes clignote {
+    50% { opacity: 0; }
+    }
+
+.stx-cards
+{
+    border:1px solid black;
+    margin:0 20px 20px 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.stx-cards-todo
+{
+    padding: 10px 0;
+    background-color : grey;
+}
+.stx-cards-task
+{
+    text-align: center;
+}
+
+.stx-margtop
+{
+    margin-top:25px;
+}
+
+.stx-baksecre
+{
+    background-image: url('../assets/secre.jpg');
+    color: white;
+}
+
+.stx-bak
+{
+    background-image: url('../assets/winter.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
